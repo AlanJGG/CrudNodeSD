@@ -8,11 +8,11 @@ var bodyParser= require('body-parser');
 
 var con= mysql.createConnection({
 
-    host: containers-us-west-24.railway.app,
-    user: root,
-    password: KIFEh0r0mPzp18Ioo5d7,
-    database: railway,
-    port: 6360
+    host: 'containers-us-west-24.railway.app',
+    user: 'root',
+    password: 'KIFEh0r0mPzp18Ioo5d7',
+    database: 'railway',
+    port: '6360'
 });
 
 con.connect();
