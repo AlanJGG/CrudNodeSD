@@ -1,0 +1,22 @@
+{
+  "name": "crudnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "TYPE": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
